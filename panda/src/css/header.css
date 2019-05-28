@@ -1,0 +1,53 @@
+
+.header{
+    width:100%;
+    height:0.424rem;
+    background: #fdde4a;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:center;
+    position:fixed;
+    top:0;
+}
+input{
+    background:#fff url("../img/big.png") no-repeat ;
+    background-size:0.28rem 0.28rem; 
+    background-position:0% center;
+    height: 0.32rem;
+    width:2.89rem;
+    border:none;
+    line-height: 0.32rem;
+    bottom: 0;
+    border-radius: 0.1rem;
+    padding:0 0.09rem;
+    padding-left:0.3rem;
+}
+.nav{
+    height: 0.499rem;
+    background: #fdde4a;
+    width:100%;
+     position:fixed;
+     top:0.42rem;
+}
+.nav .menu{
+    box-sizing:border-box;
+    width:3.4rem;
+    margin-left: 0.2rem;
+    height:100%;
+    display: flex;
+    justify-content:space-around;
+
+}
+.nav .menu p{
+    height:100%;
+    line-height: 0.499rem;
+    color:#000;
+}
+.nav .menu i{
+     height:100%;
+    line-height: 0.499rem;
+    color:#000;
+    font-size:0.16rem;
+    font-weight: 800
+}

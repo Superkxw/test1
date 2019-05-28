@@ -1,0 +1,16 @@
+.trend{
+    width:100%;
+    height: 0.49rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color:hsla(21,8%,49%,.7);
+    font-size: 0.12rem;
+} 
+.trend>span{
+    height: 1px;
+    width:0.45rem;
+    background: #fdde4a;
+    margin: 0 .15rem;
+   
+}
